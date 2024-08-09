@@ -1,0 +1,51 @@
+.item
+{   box-shadow: 1px 1px 1px -1px rgb(175, 99, 99);
+    margin:auto;
+}
+
+ #img{
+    height:250px ;
+    width: 250px;
+
+} 
+.img-div{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#img:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.desc{
+    
+    width: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.prices>em{
+    text-decoration: line-through;
+    background-color:aqua;
+}
+
+.prices>.btn
+{
+   width:95px;
+   height: 30px;
+   position: relative;
+   left: 120px;
+   bottom:20px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(138, 166, 166);
+   font-weight: bolder;
+   color: rgb(138, 30, 226);
+
+}
+.prices>.btn:hover{
+
+    background-color: rgb(77, 134, 134);
+    
+    color: rgb(138, 30, 226);
+}

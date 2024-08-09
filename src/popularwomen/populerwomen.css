@@ -1,0 +1,27 @@
+.popular-items{
+    display: flex;
+     justify-content:space-evenly;
+     /* gap:5px; */
+      width: 100vw;
+      overflow-x: auto;
+}
+.head-women{
+  color: rgb(190, 12, 57);
+  font-weight: bolder;
+  font-family: cursive;
+ 
+}
+@media only screen and (max-width:450px){
+
+   .head-women{
+     font-size: 15px;
+    font-weight: bolder;
+   }
+   .popular-items{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+}
+

@@ -1,0 +1,33 @@
+.collection{
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    width: 100vw;
+    overflow-x: auto;
+    
+}
+
+.head-new{
+    color: rgb(126, 224, 27);
+    font-weight: bolder;
+  font-family: cursive;
+
+   }
+
+@media only screen and (max-width:450px){
+
+     
+    .head-new{
+     font-size: 25px;
+     font-weight: bolder;
+    }
+
+    .collection{
+     display: flex;
+      flex-direction: column;
+      justify-content: center;
+ }
+ 
+ }
+
+ 

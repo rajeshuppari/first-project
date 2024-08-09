@@ -1,0 +1,19 @@
+.banner
+{ 
+    position: relative;
+      top:120px;
+}
+
+.mens
+{
+    overflow-y: hidden;
+}
+
+.productlist
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    top: 150px;
+    row-gap: 50px;
+} 

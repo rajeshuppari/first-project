@@ -1,0 +1,36 @@
+.mens
+{
+    overflow-y:auto;
+    width: 100%;
+   justify-content: center;
+   position: relative;
+   top: 50px;
+   
+}
+/* .banner
+{
+    position: relative;
+      top:120px;
+      width: 800px;
+
+} */
+
+
+.productlist
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap:50px;
+      
+} 
+
+@media only screen and (max-width:450px){
+
+    .productlist
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
