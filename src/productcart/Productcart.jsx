@@ -42,7 +42,7 @@ const Productcart = (props) => {
                 <button className='btn2'>{state}</button>
                 <button className='btn3' onClick={dec_fun}>-</button>
                 <p>Total:{state*props.newprice}</p>
-                <MdDelete onClick={()=>{dispatch({type:"Remove",id:props.id})}}/>
+                <MdDelete onClick={()=>{dispatch({type:"Remove",id:props.id})}} className='delete'/>
           </div>
 
           <hr />
