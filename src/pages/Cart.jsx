@@ -8,19 +8,21 @@ const Cart = () => {
 
   return (
     <div className="cart-div">
-      
-      { cart.length!==0?cart.map((item, i) => {
-        return (
-          <Productcart
-            key={i}
-            id={item.id}
-            name={item.name}
-            image={item.image}
-            newprice={item.newprice}
-          ></Productcart>
-        );
-
-      }) : <h1 className="empty">cart is empty</h1>}
+      {cart.length !== 0 ? (
+        cart.map((item, i) => {
+          return (
+            <Productcart
+              key={i}
+              id={item.id}
+              name={item.name}
+              image={item.image}
+              newprice={item.newprice}
+            />
+          );
+        })
+      ) : (
+        <h1 className="empty">cart is empty</h1>
+      )}
     </div>
   );
 };

@@ -1,17 +1,19 @@
-import React from 'react'
-import Hero from '../hero/Hero'
-import Popularwomen from '../popularwomen/Popularwomen'
-import Newcollection from '../newcollection/Newcollection'
+import React from "react";
+import Hero from "../hero/Hero";
+import Popularwomen from "../popularwomen/Popularwomen";
+import Newcollection from "../newcollection/Newcollection";
 
 const Shop = () => {
   return (
     <div>
-        <Hero/>
-        <Popularwomen/> 
-        <br /><br /><br />
-        <Newcollection/> 
+      <Hero />
+      <Popularwomen />
+      <br />
+      <br />
+      <br />
+      <Newcollection />
     </div>
-  )
-}
+  );
+};
 
-export default Shop
+export default Shop;
