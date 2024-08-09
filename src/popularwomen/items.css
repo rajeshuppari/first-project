@@ -26,7 +26,7 @@
 }
 .prices>em{
     text-decoration: line-through;
-    background-color:rgb(173, 19, 24);
+    background-color:aqua;
 }
 
 .prices>.btn
