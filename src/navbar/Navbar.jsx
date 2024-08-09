@@ -48,7 +48,7 @@ const Navbar = () => {
             <img src={cart_icon} alt="" className="cart-icon" />
           </Link>
           <sup>{cart.length}</sup>
-
+    
           {/* <FaShoppingCart /> */}
         </div>
       </div>
