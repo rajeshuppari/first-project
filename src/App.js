@@ -1,13 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-
 import Navbar from "./navbar/Navbar";
 import Shop from "./pages/Shop";
-
 import Womens from "./pages/Womens";
-
 import Mens from "./pages/Mens";
-
 import men_banner from "../src/component/assets/photos/banner_mens.png";
 import women_banner from "../src/component/assets/photos/banner_women.png";
 import Signup from "./pages/Signup";
